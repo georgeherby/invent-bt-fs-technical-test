@@ -10,12 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "eslint": "8.6.0",
+    "nodemon": "2.0.15"
   },
   "dependencies": {
-    "axios": "^0.24.0",
-    "body-parser": "^1.19.1",
-    "express": "^4.17.2",
-    "nunjucks": "^3.2.3"
+    "axios": "0.24.0",
+    "body-parser": "1.19.1",
+    "express": "4.17.2",
+    "nunjucks": "3.2.3"
   }
 }

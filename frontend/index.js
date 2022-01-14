@@ -8,7 +8,6 @@ const path = require("path");
 const nunjucks = require("nunjucks");
 const bodyParser = require('body-parser')
 const axios = require('axios');
-const { resourceLimits } = require("worker_threads");
 
 /**
  * App Variables
@@ -47,6 +46,7 @@ app.get("/", async (req, res) => {
     });
 });
 app.post('/', (req, res) => {
+    console.log(req.body)
     const { name } = req.body || {};
 
     res.locals.name = name;
