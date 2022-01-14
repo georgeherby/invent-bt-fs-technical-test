@@ -1,0 +1,41 @@
+{% extends "layout/_layout.njk" %}
+{% block content %}
+    {# Put page content here. Exmaples below #}
+    <div class="card">
+        <div class="card-body">
+
+            <form action="/" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name">
+                    <small id="nameHelp" class="form-text text-muted">Enter your name and continue</small>
+                </div>
+                <button class="btn btn-success" type="submit">Continue</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-header">
+            Health Check
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Service</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Backend</th>
+                        <td>
+                            {{backendStatus}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div
+</div>
+
+    {% endblock %}
