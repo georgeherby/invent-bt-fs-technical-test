@@ -5,8 +5,8 @@ import { Router } from 'express';
 const baseRouter = Router();
 
 // Setup routers
-baseRouter.get('/test', (request, response) => {
-    response.send('Test');
+baseRouter.get('/ping', (request, response) => {
+    response.send('pong');
 });
 
 // Export default.

@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/intellij,react,node,java
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij,react,node,java
 
@@ -42,7 +41,7 @@
 # .idea/compiler.xml
 # .idea/jarRepositories.xml
 # .idea/modules.xml
-# .idea/*.iml
+*.iml
 # .idea/modules
 # *.iml
 # *.ipr

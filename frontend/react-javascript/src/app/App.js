@@ -21,10 +21,6 @@ function App() {
   const handleSubmit = event => {
     event.preventDefault();
     setSubmitting(true);
-
-    // setTimeout(() => {
-    //   setSubmitting(false);
-    // }, 3000)
   }
 
   const handleChange = event => {
