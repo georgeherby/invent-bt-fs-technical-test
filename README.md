@@ -7,7 +7,7 @@
 > To start the frontend ensure you are in the `/frontend/nunjucks` and run `npm run dev` the service will start on http://localhost:8000
 
 #### Option 2 = React (Typescript) with Bootstrap (Node 16)
-> To start the frontend ensure you are in the `/frontend/react-typescript and run `npm start` the service will start on http://localhost:3000
+> To start the frontend ensure you are in the `/frontend/react-typescript` and run `npm start` the service will start on http://localhost:3000
 
 #### Option 3 = React (Javascript) with Bootstrap (Node 16)
 > To start the frontend ensure you are in the `/frontend/react-javascript` and run `npm start` the service will start on http://localhost:3000
