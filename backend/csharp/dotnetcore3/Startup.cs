@@ -33,7 +33,7 @@ namespace dotnetcore3
                         options.JsonSerializerOptions.PropertyNamingPolicy = null;
                         options.JsonSerializerOptions.MaxDepth = 64;
                     });
-            services.AddScoped<ICartService, CartService>();
+            services.AddSingleton<ICartService, CartService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
