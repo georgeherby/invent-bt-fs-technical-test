@@ -21,7 +21,7 @@
 > To start the backend ensure you are in the `/backend/typescript` and run `npm run build` and `npm start` the service will start on http://localhost:3010
 
 - C# - with .NET Core 3.1
-> To start the backend ensure you are in the `/backend/csharp/dotnetcore3` and run `dotnet run` the service will start on http://localhost:5000
+> To start the backend ensure you are in the `/backend/csharp/dotnetcore3` and run `dotnet run` the service will start on http://localhost:5050
 
 ---
 ## Tasks
