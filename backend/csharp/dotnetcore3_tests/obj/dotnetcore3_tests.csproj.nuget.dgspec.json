@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3_tests/dotnetcore3_tests.csproj": {}
+  },
+  "projects": {
+    "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3/dotnetcore3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3/dotnetcore3.csproj",
+        "projectName": "dotnetcore3",
+        "projectPath": "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3/dotnetcore3.csproj",
+        "packagesPath": "/Users/jamesarmer/.nuget/packages/",
+        "outputPath": "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jamesarmer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.28, 3.1.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3_tests/dotnetcore3_tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3_tests/dotnetcore3_tests.csproj",
+        "projectName": "dotnetcore3_tests",
+        "projectPath": "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3_tests/dotnetcore3_tests.csproj",
+        "packagesPath": "/Users/jamesarmer/.nuget/packages/",
+        "outputPath": "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3_tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jamesarmer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3/dotnetcore3.csproj": {
+                "projectPath": "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3/dotnetcore3.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

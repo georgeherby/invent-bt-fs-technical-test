@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{2570ACBB-701B-4F45-AE96-881C45866E89}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="invent_bt_fs_technical_test_dotnetcore/Controllers/CartController.cs">
+    <Files>
+      <File FileName="invent_bt_fs_technical_test_dotnetcore/Controllers/WeatherForecastController.cs" Line="32" Column="36" />
+      <File FileName="invent_bt_fs_technical_test_dotnetcore/Models/Product.cs" Line="12" Column="34" />
+      <File FileName="invent_bt_fs_technical_test_dotnetcore/Models/ItemsResponse.cs" Line="12" Column="39" />
+      <File FileName="invent_bt_fs_technical_test_dotnetcore/Services/CartService.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="invent_bt_fs_technical_test_dotnetcore" expanded="True">
+            <Node name="invent_bt_fs_technical_test_dotnetcore" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CartController.cs" selected="True" />
+              </Node>
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.invent__bt__fs__technical__test__dotnetcore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

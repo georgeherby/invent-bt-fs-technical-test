@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "z951Eoh5Du5sacJv+9wlTQslCWXT+/X5zFFa6NnDfFRsCb+xoJjIhOKJZEcK+Plx/yjdsz7a76ZIoPeq/CE6Ww==",
+  "success": true,
+  "projectFilePath": "/Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/dotnetcore3/dotnetcore3.csproj",
+  "expectedPackageFiles": [
+    "/Users/jamesarmer/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/jamesarmer/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.28/microsoft.netcore.app.host.osx-x64.3.1.28.nupkg.sha512",
+    "/Users/jamesarmer/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

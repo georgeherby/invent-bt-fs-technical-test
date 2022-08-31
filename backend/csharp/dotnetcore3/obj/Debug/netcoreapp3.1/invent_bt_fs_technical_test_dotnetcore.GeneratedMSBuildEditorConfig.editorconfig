@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = invent_bt_fs_technical_test_dotnetcore
+build_property.ProjectDir = /Users/jamesarmer/Documents/GitHub/invent-bt-fs-technical-test/backend/csharp/invent_bt_fs_technical_test_dotnetcore/
