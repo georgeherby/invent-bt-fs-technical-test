@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Text.Json;
 using Xunit;
-using Moq;
 using dotnetcore3.Interfaces;
 using dotnetcore3.Controllers;
 using dotnetcore3.Models;
 using Microsoft.AspNetCore.Mvc;
+using dotnetcore3.Services;
 
 namespace dotnetcore3_tests
 {
@@ -14,8 +14,8 @@ namespace dotnetcore3_tests
         [Fact]
         public void ShouldReturnListOfItems()
         {
-            var mockCartService = new Mock<ICartService>();
-            var controller = new CartController(mockCartService.Object);
+            var cartService = new CartService();
+            var controller = new CartController(cartService);
 
             var result = controller.GetShopItems();
 

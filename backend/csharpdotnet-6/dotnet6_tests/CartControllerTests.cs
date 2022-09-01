@@ -1,6 +1,7 @@
 ﻿using dotnet6.Controllers;
 using dotnet6.Interfaces;
 using dotnet6.Models;
+using dotnet6.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace dotnet6_tests;
@@ -10,8 +11,8 @@ public class CartControllerTests
     [Fact]
     public void ShouldReturnListOfItems()
     {
-        var mockCartService = new Mock<ICartService>();
-        var controller = new CartController(mockCartService.Object);
+        var cartService = new CartService();
+        var controller = new CartController(cartService);
 
         var result = controller.GetShopItems();
 
