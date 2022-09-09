@@ -1,11 +1,7 @@
 package com.georgeherby.backend.controllers;
 
 import com.georgeherby.backend.models.ItemsResponse;
-import com.georgeherby.backend.models.Product;
 import com.georgeherby.backend.services.CartService;
-
-import java.util.ArrayList;
-import java.util.List;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -28,7 +24,7 @@ public class CartController {
     );
   }
 
-  @GetMapping("/total")
+  @PostMapping("/total")
   public double getTotalPrice(@RequestBody String[] items) {
     throw new RuntimeException("Not implemented");
   }
