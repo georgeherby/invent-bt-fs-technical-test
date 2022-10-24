@@ -19,14 +19,7 @@ public class CartController : ControllerBase
     [HttpGet]
     public ActionResult<ItemsResponse> GetShopItems()
     {
-        return Ok(new ItemsResponse(
-            new List<Product>()
-            {
-                    new Product("Apple", 60),
-                    new Product("Orange", 25)
-            }
-            )
-        );
+        return Ok(new ItemsResponse(_cartService.GetProducts()));
     }
 
     [Route("total")]
